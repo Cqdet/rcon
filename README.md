@@ -2,7 +2,7 @@
 A basic RCON implementation in Deno
 
 # Usage
-The API is very simple. There are two exposed methods on `RCON` class, `connect()` and `send()`.
+The API is very simple. There are two exposed methods on `RCON` class, `connect()`, `send()`, and `sendSync()`.
 
 ```ts
 import { RCON } from './mod.ts';
