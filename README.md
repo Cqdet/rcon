@@ -1,5 +1,5 @@
 # RCON
-A basic RCON implementation in Deno
+A basic RCON implementation in Deno, based off [Source RCON Protocol](https://developer.valvesoftware.com/wiki/Source_RCON_Protocol)
 
 # Usage
 The API is very simple. There are two exposed methods on `RCON` class, `connect()`, `send()`, and `sendSync()`.
